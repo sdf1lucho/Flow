@@ -1,0 +1,33 @@
+.wifiAdmin__Contenido{
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.wifiAdmin__Contenedor{
+    width: 33%;
+    padding: 1rem;
+
+        @media(max-width:768px){
+            width: 50%;
+        }
+
+        @media(max-width:320px){
+            width: 100%;
+        } 
+
+}
+
+.imgWifiAdmin{
+
+    @media(max-width:320px){
+        width:250px;
+        height:auto;
+    }
+    
+}

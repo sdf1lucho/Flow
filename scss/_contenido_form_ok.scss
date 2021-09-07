@@ -1,0 +1,28 @@
+.formOk__Contenido{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.formOk__Contenedor{
+    text-align: center;
+    padding: 2rem;
+}
+
+
+.formOk__Boton{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: $color_Secundario;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+        &:hover{
+            background-color: $color_Boton_Nav_Background_Hover;
+            color: $color_Primario;
+        }
+}

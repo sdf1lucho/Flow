@@ -1,0 +1,37 @@
+.pie{
+    /*background: rgb(0,0,0);*/
+    background: $color_Footer_Background;
+    border-top: 1px solid $color_Separador;
+    padding: 1rem;
+    
+        @media (max-width:320px){
+            padding: 0.1;
+        }
+
+                ul{
+                    list-style-type: none;
+                }
+
+                li{
+                    font-family: 'Lato', sans-serif;
+                    font-size: 1.2rem;
+                    font-weight: 700;
+                    color:$color_Footer_Texto;
+                    padding: 0.2rem;
+                    text-align: center;
+                }
+
+                        @media (max-width: 768px) {
+                            li{
+                                font-size: 1rem;
+                            } 
+                        }
+
+                        @media (max-width: 320px) {
+                            li{
+                                font-size: 0.75rem;
+                                text-align: left;
+                            } 
+                        }    
+}
+

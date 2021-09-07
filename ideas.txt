@@ -1,0 +1,32 @@
+Index: Carrousel de imagenes de las secciones
+
+
+Como configurar los nombres de los dispositivos
+Ubicacion de tus hijos
+Aplicaciones que utilizan por tiempo
+Limitaciones de tiempo
+Limitacion de aplicaciones
+Para Dispositivos Moviles
+Para PC
+Si sos cliente de Fibertel y/o Flow, ahora podes tener el nuevo servicio de Control de Contenido 
+
+
+auto play
+
+<style>
+        h1{
+            color: red;
+            font-size: 36px;
+        }
+</style>
+
+<!-- otra forma de insertar styles -->
+<link rel="stylesheet" ref="./styles_css/css_1.css">
+
+<!-- otra forma de insertar styles -->
+<!-- EN LA ETIQUETA -->
+<h1 style="color: aqua;">Clase 3</h1>
+
+
+
+

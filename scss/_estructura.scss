@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding:0;
+    border:0;
+}
+
+.error404{
+    text-align: center;
+        
+        img{
+            width:300px;
+            height:auto;
+        }
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+@mixin flex($direccion, $justify, $margin, $width){
+    display: flex;
+    flex-direction: $direccion;
+    justify-content: $justify;
+    margin: $margin;
+    width: $width;
+}
+
+body{
+
+    font-family: "lato", sans-serif;
+    /*background: rgb(2,134,122);*/
+    background:$color_Background_Website;
+
+    .contenido{
+            @include flex(column,justify,0 auto,90%)
+}
+
+}
+.tituloSeccion{
+    padding: 1rem;
+    font-family: "lato", sans-serif;
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    color:$color_Primario;
+    text-align: center;
+    /*background: rgb(0,0,0);*/
+    background:$color_Titulo_Seccion_Background;
+    
+    @media (max-width: 768px) {
+        padding: 0.5rem;
+        font-size: 2rem;
+    } 
+
+    @media (max-width: 320px) {
+        padding: 0.5rem;
+        font-size: 1rem;
+    }  
+
+}
+
+    span{
+        color: $color_Secundario;
+    }
+
+.subtituloSeccion{
+        font-family:"lato", sans-serif;
+        font-style: italic;
+        font-size: 2rem;
+        font-weight: 500;
+        letter-spacing: 0.1rem;
+        color: $color_Input_Form_Background;
+        padding-bottom: 1rem;
+        text-align: center;
+        
+
+   
+        @media(max-width:320px){
+            font-size: 1.2rem;
+        }
+}
+
+.parrafoSeccion{
+    font-family:  "lato", sans-serif;
+    font-size: 1.5rem;
+    color: $color_Input_Form_Background;
+    padding: 0.2rem;
+    vertical-align: top;
+    text-align: left;
+
+        @media(max-width:320px){
+            font-size: 1rem;
+        }
+}
+
+.ulSeccion{
+    list-style-type:disc;
+    list-style-position: inside;
+}
+
+.listaSeccion{
+    padding: 1rem 1rem;
+    font-family:  "lato", sans-serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 500;
+    color: $color_Input_Form_Background;
+    text-align: left;
+
+        @media(max-width:320px){
+            font-size: 1rem;
+        }
+}
