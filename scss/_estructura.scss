@@ -6,10 +6,12 @@
 
 .error404{
     text-align: center;
+    padding:5rem;
         
         img{
             width:300px;
             height:auto;
+            padding:5rem;
         }
 
 }
@@ -38,7 +40,7 @@ body{
     background:$color_Background_Website;
 
     .contenido{
-            @include flex(column,justify,0 auto,90%)
+            @include flex(column,center,0 auto,90%)
 }
 
 }

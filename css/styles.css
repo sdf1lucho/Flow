@@ -7,10 +7,12 @@
 
 .error404 {
   text-align: center;
+  padding: 5rem;
 }
 .error404 img {
   width: 300px;
   height: auto;
+  padding: 5rem;
 }
 
 a {
@@ -29,7 +31,7 @@ body {
 body .contenido {
   display: flex;
   flex-direction: column;
-  justify-content: justify;
+  justify-content: center;
   margin: 0 auto;
   width: 90%;
 }
@@ -514,8 +516,8 @@ span {
 
 .contratar__Contenedor {
   width: 50%;
-  text-align: center;
   padding: 1rem;
+  text-align: center;
   /*@media(max-width:768px){
       width: 50%;
   }*/
@@ -532,8 +534,7 @@ span {
 }
 
 .contratar__Form__Contenido {
-  text-align: left;
-  margin: 0.5rem;
+  text-align: right;
 }
 
 .contratar__texto__form {
@@ -547,9 +548,9 @@ span {
 }
 
 .contratar__Form__Item {
-  padding: 0.2rem;
+  padding: 0, 5rem;
   font-size: 1.2rem;
-  margin: 0.2rem;
+  margin: 1rem;
   border: 1px;
   border-style: solid;
   border-color: #0ae6a4;
@@ -563,8 +564,9 @@ span {
 }
 
 .contratar__Form__TextArea {
+  padding: 0, 5rem;
   font-size: 1.2rem;
-  margin: 0.2rem;
+  margin: 1rem;
   border: 1px;
   border-style: solid;
   border-color: #0ae6a4;
@@ -578,7 +580,7 @@ span {
 }
 
 .contratar__Form_Boton {
-  width: 10rem;
+  width: 45%;
   padding: 0.5rem;
   border: 1px;
   border-style: solid;
@@ -614,7 +616,7 @@ span {
 
 .formOk__Contenedor {
   text-align: center;
-  padding: 2rem;
+  padding: 3rem;
 }
 
 .formOk__Boton {
