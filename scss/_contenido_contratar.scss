@@ -46,6 +46,18 @@
     font-size: 1.5rem;
     color: $color_Primario;
         
+
+        @media(max-width:320px){
+            font-size: 1.3rem;
+        } 
+
+        @media(max-width:320px){
+            font-size: 1.1rem;
+        } 
+
+        @media(max-width:320px){
+            font-size: 1rem;
+        } 
         @media(max-width:320px){
             font-size: 1rem;
         } 
