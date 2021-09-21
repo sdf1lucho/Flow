@@ -59,11 +59,22 @@ body{
     @media (max-width: 768px) {
         padding: 0.5rem;
         font-size: 2rem;
-    } 
+    }
+
+    @media (max-width:425px) {
+        padding: 0.5rem;
+        font-size: 1.6rem;
+    }  
+
+    @media (max-width:375px) {
+        padding: 0.5rem;
+        font-size: 1.4rem;
+    }  
+
 
     @media (max-width: 320px) {
         padding: 0.5rem;
-        font-size: 1rem;
+        font-size: 1.4rem;
     }  
 
 }
@@ -82,8 +93,18 @@ body{
         padding-bottom: 1rem;
         text-align: center;
         
+        @media(max-width:768px){
+            font-size: 1.8rem;
+        }
 
+        @media(max-width:425px){
+            font-size: 1.4rem;
+        }
    
+        @media(max-width:375px){
+            font-size: 1.2rem;
+        }
+
         @media(max-width:320px){
             font-size: 1.2rem;
         }
@@ -97,9 +118,22 @@ body{
     vertical-align: top;
     text-align: left;
 
-        @media(max-width:320px){
+
+        @media(max-width:768px){
+            font-size: 1.3rem;
+        }
+
+        @media(max-width:425px){
+            font-size: 1.1rem;
+        }
+
+        @media(max-width:375px){
             font-size: 1rem;
         }
+        
+        @media(max-width:320px){
+                font-size: 1rem;
+            }
 }
 
 .ulSeccion{
@@ -115,6 +149,17 @@ body{
     font-weight: 500;
     color: $color_Input_Form_Background;
     text-align: left;
+
+
+        @media(max-width:768px){
+            font-size: 1.3rem;
+        }
+        @media(max-width:425px){
+            font-size: 1.1rem;
+        }
+        @media(max-width:375px){
+            font-size: 1rem;
+        }
 
         @media(max-width:320px){
             font-size: 1rem;

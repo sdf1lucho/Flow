@@ -12,15 +12,23 @@
 .contentAdmin__Contenedor{
     width: 33%;
     padding: 1rem;
+    text-align: center;
 
         @media(max-width:768px){
             width: 50%;
         }
 
-        @media(max-width:320px){
+        @media(max-width:425px){
             width: 100%;
         }
 
+        @media(max-width:375px){
+            width: 100%;
+        }
+
+        @media(max-width:320px){
+            width: 100%;
+        } 
 }
 
 .imgContentAdmin{
